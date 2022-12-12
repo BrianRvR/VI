@@ -1,8 +1,12 @@
 <html>
     <body>
-    Hola <?php echo $_POST["nombres"]; ?><br>
-    Tu Apellido es: <?php echo $_POST["apellidos"]; ?>
-    Tu numero es:<?php echo $_POST["telefono"]; ?>
-    Tu correo es:<?php echo $_POST["correo"]; ?>
+   
+<?php
+	if(isset($_POST["enviar"]) && !empty($_post["enviar"])) {
+		$nombre = $_post["nombre"];
+		echo "<b>" .$nombre . "</b>";
+	}
+?>
+
     </body>
 </html>
