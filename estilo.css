@@ -16,7 +16,7 @@ body{
     align-items: center;
     justify-content: center;
     /*height: 100vh;*/
-    background: url("../Vi/imagenes/lolo.jpg")center;
+    background: url("../imagenes/lolo.jpg")center;
     background-size: cover;
     backdrop-filter: blur(10px);
 }
@@ -84,7 +84,7 @@ p{
 
 header{
     margin-bottom: 4%;
-    background: url('../Vi/imagenes/F.jpg') no-repeat center/cover;
+    background: url('../imagenes/F.jpg') no-repeat center/cover;
     width: 965px;
     height: 400px;
     
@@ -103,7 +103,7 @@ hr{
 }
 .portada{
     margin-top: 4%;
-    background: url('../Vi/imagenes/portada.png') no-repeat center/cover;
+    background: url('../imagenes/portada.png') no-repeat center/cover;
     width: 965px;
     height: 400px;
 }
