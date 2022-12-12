@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.container{
+    width: 965px;
+    margin: auto;
+    border-radius: 25px;
+   
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 100vh;*/
+    background: url("../imagenes/lolo.jpg")center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+.menu{
+    float: right;
+    margin-top: 4%;
+    font-family: 'Lexend Deca', sans-serif;
+    
+    
+}
+.menu li{
+    display: inline-block;
+}
+input.btn{
+    padding: 10px;
+    color: white;
+    background: transparent;
+    border: transparent;
+    
+	
+}
+input.btn:hover{
+    
+	text-decoration: none;
+	padding: 10px;
+	border-bottom: 2px solid white;
+    
+}
+
+header{
+    margin-bottom: 4%;
+    background: url('../imagenes/cur.jpg') no-repeat center/cover;
+    width: 965px;
+    height: 400px;
+}
+
+hr{
+    margin-top: -5px;
+}
+
+p{
+   color: #030303;
+   font-size: 14px;
+   font-family: 'Lexend Deca', sans-serif;
+}
+br{
+    padding: 1000px;
+}
+li{
+    margin-left: 4%;
+    margin-bottom: 3%;
+    color: rgb(0, 0, 0);
+    display: list-item;
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.fon{
+    padding: 5%;
+    background-color: white;
+}
+h3{
+    margin-top: 6%;
+}
+.linka{
+    text-decoration: none;
+    color: blue;
+}

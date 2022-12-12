@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.container{
+    width: 965px;
+    margin: auto;
+    border-radius: 25px;
+   
+}
+.top{
+    margin-top: 30px;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 100vh;*/
+    background: url("../imagenes/lolo.jpg")center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+.menu{
+    float: right;
+    margin-top: 4%;
+    font-family: 'Lexend Deca', sans-serif;
+    
+    
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    color:white;
+	text-decoration: none;
+	padding: 10px;
+    
+	
+}
+.menu a:hover{
+    
+	text-decoration: none;
+	padding: 10px;
+	border-bottom: 2px solid white;
+    
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;;
+    color: white;
+}
+.row{
+
+    margin-left: 0px;
+}
+.footer{
+    overflow: hidden;
+}
+.footer a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footer span{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+header{
+    margin-bottom: 4%;
+    background: url('../imagenes/cur.jpg') no-repeat center/cover;
+    width: 965px;
+    height: 400px;
+    
+    
+}
+
+hr{
+    margin-top: -5px;
+}
+
+/*footer links pie de pagina*/
+.hr2{
+    margin-top: 0%;
+    margin-bottom: auto;
+ }
+ .footer{
+    
+    margin-bottom: 5%;
+    background: #00000000;
+    width: 100%;
+    height: 150px;
+}
+.menuf{
+    text-decoration: none;
+    float: right;
+    margin-top: 2%;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-right:2%;
+}
+.menuf li{
+    display: inline-block;
+    
+}
+.menuf a{
+    color:white;
+	text-decoration: none;
+	padding: 13px;
+   
+    
+	
+}
+.menuf a:hover{
+    padding: 13px;
+	text-decoration: none;
+	border-bottom: 2px solid white;
+    
+}
+.caja{
+    margin-top: 4%;
+}
+.num{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+}
+
+/*formulario*/
+*{ 
+    box-sizing: border-box;
+}
+.form_registro{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.597);
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 4px;
+    font-family: 'calibri';
+}
+.form_registro h1{
+    color: rgb(0, 0, 0);
+    font-family: helvetica;
+    color:#3300ff;
+}
+p{
+   color: #3300ff;
+   font-size: 16px;
+   font-family: 'Lexend Deca', sans-serif;
+}
+.texto{
+    color: #fefefee4;
+    font-size: 13px;
+    margin-bottom: 12%;
+}
+.t{
+    color: #fefefee4;
+    font-size: 13px;
+    margin-bottom: 12%;
+}
+p.t{
+    display: inline;
+}
+.control{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.separacion{
+    color: #ffffff;
+    border:solid 2px #3300ff;
+    border-radius: 4px;
+    background-color: #000000;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 10px;
+    font-size: 15px;
+    margin-top: 4%;
+    margin-bottom: 8%;
+   
+}
+
+.poli1{
+    font-family:'Lexend Deca', sans-serif;
+    text-decoration: none;
+    color: blue;
+    margin: 1%;
+}
+.aste{
+    margin-left: 1.5%;
+    color: rgba(255, 255, 255, 0.641);
+    font-size: 12px;
+}
