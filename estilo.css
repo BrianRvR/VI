@@ -16,7 +16,7 @@ body{
     align-items: center;
     justify-content: center;
     /*height: 100vh;*/
-    background: url("../Vi/imagenes/lolo.jpg")center;
+    background: url("../imagenes/lolo.jpg")center;
     background-size: cover;
     backdrop-filter: blur(10px);
 }
@@ -49,20 +49,18 @@ body{
     background-color: #0000009f;
     width: 288px;
     display: inline-block;
-    /*vertical-align: top;*/
     text-align: justify;
     padding: 14px;
 }
 .col h2{
     text-align: center;
-    /*color:#3300ff;*/
     color:#ffffff;      
     font-family:'Lexend Deca', sans-serif;
     -webkit-text-stroke: 0.5px black;
     font-size: 23px;
 }
 p{
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;;
     color: white;
 }
@@ -84,7 +82,7 @@ p{
 
 header{
     margin-bottom: 4%;
-    background: url('../Vi/imagenes/F.jpg') no-repeat center/cover;
+    background: url('../imagenes/F.jpg') no-repeat center/cover;
     width: 965px;
     height: 400px;
     
@@ -103,7 +101,7 @@ hr{
 }
 .portada{
     margin-top: 4%;
-    background: url('../Vi/imagenes/portada.png') no-repeat center/cover;
+    background: url('../imagenes/portada.png') no-repeat center/cover;
     width: 965px;
     height: 400px;
 }
