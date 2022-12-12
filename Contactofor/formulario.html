@@ -45,25 +45,25 @@
                     
                     <!--type tel ya que aqui el cliente pondra su numero de telefono-->
                     <p>Número de telefono</p> 
-                    <input class="control" type="tel" name="telefono" placeholder="Número">
+                    <input class="control" type="tel" name="telefono" id="telefono" placeholder="Número">
             
            
                 <p>Correo Electrónico</p> <!--type email ya que se trata de poner el correo del cliente-->
                 <input class="control" type="email" name="correo" id="correo" placeholder="Correo electrónico*">
 
                 <p>sexo</p> <!--type radio es decir una opción que pertenece a un grupo de esta forma podran seleccionar que tipo de genero son-->
-                <input class="cla" type="radio" name="sexo" value="hombre" checked="checked"><p class="t">Hombre</p>
-                <input class="cla" type="radio" name="sexo" value="mujer" checked="checked"> <p class="t">Mujer</p>
+                <input class="cla" type="radio" name="sexo" id="hombre" value="hombre" checked="checked"><p class="t">Hombre</p>
+                <input class="cla" type="radio" name="sexo" id="mujer" value="mujer" checked="checked"> <p class="t">Mujer</p>
 
                 <br><br>
                 <!--type checkbox para poder marcar la opcion si es mayor de 16 años-->
-                <input name="Enviar" type="checkbox" value="Enviar" checked="checked"><p class="t">He leído y acepto la <a class="poli1" href="../Protecciondedatos/politicas.html"><strong>Política de privacidad</strong></a> de VI*</p>
+                <input name="Enviar" type="checkbox" id="marcaje" value="Enviar" checked="checked"><p class="t">He leído y acepto la <a class="poli1" href="../Protecciondedatos/politicas.html"><strong>Política de privacidad</strong></a> de VI*</p>
                 <br><br>
                 <p class="aste">Los campos marcados con * son obligatoios</p>
                 <br>
                 <!--type submit y reset, el reset es para borrar de golpe lo escrito y submit es para enviar y de esa forma poder registrarse-->
-                <input class="separacion" type="submit" name="enviar" value="Envia">
-                <input class="separacion" type="reset" name="limpiar" value="Borrar los datos introducidos">
+                <input class="separacion" type="submit" id="envia" name="enviar" value="Envia">
+                <input class="separacion" type="reset" id="borrado" name="limpiar" value="Borrar los datos introducidos">
 
 
             </form>
